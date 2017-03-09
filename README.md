@@ -3,7 +3,7 @@ This simple app put faces on everyday objects (Python/OpenCV)
 
 ## Description
 Visagizator's purpose is, first of all, to apply a face recognition on a chosen picture to isolate the face.
-Once the face is isolated, the user can select an area on a picture to intégrate it (for exemple a mug picture).
+Once the face is isolated, the user can select an area on a picture to integrate it (for exemple a mug picture).
 
 ## Goals
 
