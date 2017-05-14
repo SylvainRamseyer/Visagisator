@@ -39,7 +39,7 @@ cv2.waitKey(0)
 
 
 for facx in face:
-    offset = 200;
+    offset = 0
     img = facx
 
     img2 = img
