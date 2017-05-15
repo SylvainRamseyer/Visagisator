@@ -51,7 +51,7 @@ for facx in face:
 
     hsv = cv2.cvtColor(fond, cv2.COLOR_BGR2HSV)
 
-    #
+    #parse and modify each pixels
     height, width = img.shape
     out = np.zeros((height,width,3), np.uint8)
     for i in range(height):
