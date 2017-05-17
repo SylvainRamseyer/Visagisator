@@ -4,8 +4,8 @@ import numpy as np
 
 # Get user supplied values
 imagePath = sys.argv[1]
-cascPath = sys.argv[2]
-fondPath = sys.argv[3]
+cascPath =  "haarcascade_frontalface_default.xml"
+fondPath = sys.argv[2]
 
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
